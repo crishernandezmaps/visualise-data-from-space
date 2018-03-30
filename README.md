@@ -1,53 +1,51 @@
-### Workshop title: Visualise Data from Space.
+### Workshop title: Visualise Data from Space using Python.
 
-### Título del Workshop: Visualizar datos desde el Espacio.
+### Título del Workshop: Visualizar datos desde el Espacio usando Python.
 
-> 26th May 2018 9:30 - 17:00
+> 26th May 2018 10:30 - 18:00
 
-Trabajas con datos en forma regular? Quieres aprender como saber si los efectos de tu campaña de marketing o de tu estrategia comercial se reflejan en los datos? Como darle significancia estadística a los resultados y mostrarlos en un tablero para compartir con tus colaboradores? Todo esto usando herramientas gratis y de acceso libre? Entonces el workshop “Contando visualmente el impacto de una campaña de marketing” está diseñado para ti. Durante este workshop aprenderás a explorar una base de datos usando herramientas de acceso libre. Aprenderás inferir si las diferencias en resultados antes y después son estadísticamente significativas o simplemente debida al azar. Aprenderás a visualizar y compartir tus resultados.  Aprenderás haciendo, en una clase pequeña de hasta 12 alumnos. Trabajarás en tu laptop (por favor trae el tuyo!) para familiarizarte con las herramientas y técnicas, y trabajarás también en equipo para aprender mejor cómo comunicar tus resultados.
+Provienes desde la [ciencia social](http://www.esrc.ac.uk/about-us/what-is-social-science/) o las [humanidades digitales](http://shc.stanford.edu/digital-humanities)? Estudias problemáticas que tengan una componente espacial o territorial? Quisieras aprender a programar, aprender un nuevo lengiage de programación o realizar nuevos análisis?
 
 ### 1. Esto es lo que aprenderás:
 
 ##### A. PREGUNTAS DE INVESTIGACIÓN:
-Cómo son extraídos los datos satelitáles y cuál es su uso en las Ciencias Sociales.
+Cómo son extraídos los datos satelitáles y cuál es su uso en las Ciencias Sociales y las Humanidades Digitales.
 
 ##### B. TIPOS DE DATOS GEOGRÁFICOS:
-La importancia de identificar si los resultados efectivamente muestran una diferencia más allá que la del azar.
+Reconocer los tipos de datos geográficos (raster y vectorial), y su representación cartográfica.
 
-##### C. EXPLORACIÓN DE DATOS:
-Exploración y transformación inicial de datos.
+##### C. RECOLECCIÓN DE DATOS:
+Repasaremos las fuentes libres de datos satelitáles y cómo podemos extraer dichos datos de forma programática.
 
 ##### D. VISUALIZACIÓN DE DATOS:
-Convertiremos los datos en visualizaciones estáticas e interactivas que podrás compartir fácilmente.
+Usaremos Python para la visualización descriptiva de los datos y luego [CARTO](https://carto.com/) para del *deploy* de nuestros datos en un web map.
 
 ##### E. Este workshop es para ti si:
-- Quieres aprender a darle un respaldo estadístico a tus conclusiones.
-- Quieres familiarizarte con herramientas de manejo y visualizaciones de datos de acceso libre con una gran comunidad de usuarios.
-- Quieres entregar y compartir resultados a través de visualizaciones atrayentes apoyadas por los datos.
+- Quieres aprender a programar en Python o darle un nuevo uso a tus habilidades.
+- Estudias problemáticas que involucran variables territoriales (urbanas, geográficas, etc.).
+- Quieres agregar una nueva fuente de datos a tus análisis.
 
 ##### F. Herramientas que usaremos:
-Apuntamos a usar herramientas de gran popularidad que son gratis y en las que existe una gran comunidad activa.  Durante este workshop usarás las siguientes herramientas: Microsoft Azure Notebooks, Jupyter Notebooks, Python Pandas y Python Bokeh.  
+Apuntamos a usar herramientas de gran popularidad que son gratis y en las que existe una gran comunidad activa.  Durante este workshop usarás las siguientes herramientas: Github, Microsoft Azure Notebooks, Python (Rasterio, GeoPandas, Pandas) y CARTO.  
 
 ##### G. Base de Datos que usaremos:
-Usaremos una base de datos abierta de una cadena de comida rápida de EE.UU. para identificar si las distintas campañas tuvieron resultados y que campaña recomendar para el resto de clientes.
+Usaremos datos desde dos constelaciones de satélites: [Landsat](https://landsat.usgs.gov/) y [Sentinel](https://www.esa.int/Our_Activities/Observing_the_Earth).
 
 ### 2. Agenda
-+ 10:30-10:45	llegada
-+ 10:45-11:00 	Introduccion
-+ 11:00-12:00	Pregunta de Investigación, Estadística y uso de Jupyter Notebooks
++ 10:30-10:45	Introduccion
++ 10:45-11:00 Setting up: Github, Microsoft Azure y CARTO
++ 11:00-12:00	Intro a Python
 + 12:00-12:15	Pausa para Cafe
-+ 12:15-13:00	Exploración y Revisión de Datos en Grupos
-+ 13:00-13:15	Presentación y Comentarios
++ 12:15-13:15	Intro al trabajo con imágenes satelitáles: Por qué usarlas en Ciencias Sociales y Humanidades Digitales?
 + 13:15-14:00 Almuerzo
-+ 14:00-14:25	Transformación de Datos y Estimación de Resultados con Pandas
-+ 14:25-15:55	Visualización de Datos con Bokeh y demo de Github  
-+ 15:55-16:10	Pausa para Cafe
-+ 16:10-17:25	Prototipo de Pagina Web Responsiva y Compartible
-+ 17:25-17:50	Presentación y Discusión
++ 14:00-15:30	Obteniendo y procesando datos desde el espacio
++ 15:30-15:45	Pausa para Cafe
++ 15:45-17:15	Visualizando nuestros datos usando CARTO
++ 17:15-17:50	Presentación y Discusión
 + 17:50-18:00	Comentarios Finales
 
 ### Sobre el Relator
-
+Geógrafo Universidad de Chile experto en ciencia de datos espaciales y visualización. Actualmente Data and Skills Officer en Data Campfire y Fundador de las Startups Mapoteca y Postdata.
 
 
 ---
